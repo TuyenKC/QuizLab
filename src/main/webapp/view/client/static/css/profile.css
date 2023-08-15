@@ -1,0 +1,126 @@
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}  
+.dropdown-menu {
+    min-width: 200px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+} 
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%; /* 
+    max-width: 600px; 
+    max-height: 100vh; 
+    overflow-y: auto; 
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-md-3 {
+  display: flex;
+  flex-direction: column;
+}
+.question-nav {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.question-nav li {
+  margin-bottom: 10px;
+}
+.question-nav li a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #000;
+}
+.question-nav li a:hover {
+  font-weight: bold;
+}
+.col-md-9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.options .correct + span{
+  color: green;
+}
+.options .incorrect + span{
+  color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .profile-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 150px;
+  }
+  .profile-card .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .card-title {
+    margin-bottom: 10px;
+  }
+  .btn {
+    margin-right: 10px;
+  }
+  .btn:last-child {
+    margin-right: 0;
+  }
